@@ -1,4 +1,4 @@
-*{
+	*{
 	margin: 0;
 	padding: 0;
 	box-sizing: border-box;
@@ -6,66 +6,64 @@
 
 #all{
 	width: 1024px;
-	min-height: 1000px;
-	background: #F87373;
+	min-height: 1100px;
+	background: #F4EEEE;
 	margin: auto;
+
 }
 header{
-	background: #A4E493;
+	/*background: #A4E493;*/
 	width: 1024px;
 	height: 50px;
 	line-height: 50px;
 	text-align: center;
-}
+	}
 	header #logo{
-		width: 200px;
+		width: 210px;
 		height: 50px;
 		display: inline-block;
-		background: yellowgreen;
+		/*background: yellowgreen;*/
+		border: solid 1px #AB9696;
 	} 
 	header #banner{
 		width: 800px;
 		height: 50px;
 		display: inline-block;
-		background: #0B9121;
+		/*background: #0B9121;*/
+		border: solid 1px #AB9696;
 	}
 nav{
 	width: 1024px;
 	height: 30px;
 	/*background: red;*/
+	border: solid 1px #AB9696;
+	margin-top: 5px;
 }
 	nav #menu{
-		background: #F62828;
+		/*background: #F62828;*/
 		width: 600px;
 		height: 30px;
 		float: left;
+		
 	}
 		ul{
 			list-style: none;
 			width: 600px;
-			background: darkgray;
+			/*background: darkgray;*/
 		}
-		#footer{
-			width: 1024px;
-			height: 40px;
-			background: #F0F2AD;
-		}
-		#footer ul{
-			float: right;
-			margin-right: 0;
-		}
+		
 		ul li{
 			display: inline-block;
 			width: 100px;
 			height: 30px;
 			border-right: solid 1px #E2DADA;
-			background: #BD0909;
+			/*background: #BD0909;*/
 		}
 		ul li a{
 			display: block;
 			text-decoration: none;
 			line-height: 30px;
-			background: yellow;
+			/*background: yellow;*/
 			text-align: center;
 		}
 		ul li:last-child{
@@ -76,71 +74,101 @@ nav{
 		height: 25px;
 		border: solid 1px #E2DADA;
 		border-radius: 10px;
-		display: inline-block;
 		float: right;		
 	}
 section{
 	width: 1024px;
-	min-height: 600px;
-	background: #1325AB;
+	min-height: 1100px;
+	/*background: #1325AB;*/
+	margin-top: 5px;
+}
 
-	/*display: block;*/
-}
-p{
-	display: inline-block;
-}
 	#sidebar {
-		width: 100px;
-		height: 500px;
-		background: #67F042;
+		width: 200px;
+		min-height: 500px;
+		/*background: #67F042;*/
 		float: left;
+		margin: 5px;
 	}
 	section #side1{
-		width: 100xp;
+		width: 200xp;
 		height: 150px;
-		background: #AE9831;
+		/*background: #AE9831;*/
+		margin-bottom: 5px;
+		border: solid 1px #AB9696;
 	}
 	section #side2{
-		width: 100px;
+		width: 200px;
 		height: 250px;
-		margin-top: 10px;
-		background: #807959;
+		border: solid 1px #AB9696;
+		/*margin-top: 10px;*/
+		/*background: #807959;*/
 	}
 article{
-		width: 700px;
+		width: 600px;
 		min-height: 600px;
-		background: red;
+		/*background: red;*/
 		float: left;
 	}
 	article #hotnews{
-		width: 200px;
-		height: 100px;
-		background: #63E6DB;
-		display: inline-block;
+		width: 290px;
+		height: 150px;
+		/*background: #63E6DB;*/
+		float: left;
+		margin: 5px;
+		border: solid 1px #AB9696;
 	}
 	article #photo{
-		width: 450px;
-		height: 100px;
-		background: #1AA397;
-		display: inline-block;
+		width: 290px;
+		height: 150px;
+		/*background: #1AA397;*/
+		float: left;
+		margin: 5px;
+		border: solid 1px #AB9696;
 	}
 	article .news{
-		width: 220px;
-		height: 100px;
-		display: inline-block;
-		background: #31CF38;
+		width: 290px;
+		height: 300px;
+		float: left;
+		/*background: #31CF38;*/
 		margin: 5px;
+		border: solid 1px #AB9696;
+		text-align: center;
+		line-height: 300px;
+		font-size: 32px;
 	}
 aside {
-	width: 100px;
-	height: 600px;
-	background: #73993D;
+	width: 200px;
+	min-height: 600px;
+	/*background: #73993D;*/
 	float: left;
+	margin: 0 5px;
 }
-	aside input, #chart, # map{
-		width: 90px;
-		height: 100px;
-		background: #B13434;
-		margin: 5px;
+	aside input, #chart, #map{
+		width: 200px;
+		height: 300px;
+		/*background: #B13434;*/
+		margin-top: 5px;
+		border: solid 1px #AB9696;
+		background: none;
 	}
 	
+	/*--------------------------------*/
+	#footer{
+			width: 1024px;
+			height: 40px;
+	/*		background: #F0F2AD;*/
+			border: solid 1px #AB9696;
+			margin-top: 5px;
+		}
+		#footer ul{
+			width: 530px;
+			overflow: hidden;
+			float: right;
+			margin: 5px 0;
+			/*background: red;*/
+		}
+	p{	
+		margin: 5px;
+		display: inline-block;
+	}
